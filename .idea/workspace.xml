@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a902054-e73a-440d-a838-7b16bbc9e6f0" name="Changes" comment="" />
+    <list default="true" id="2a902054-e73a-440d-a838-7b16bbc9e6f0" name="Changes" comment="Comprobamos bases de datos y conexiones">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ejemplobuenobbdd/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ejemplobuenobbdd/AppController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/cheli/Desktop/PROGRAMAS/intelli J ULTIMATE/JavaYMySQL-master",
+    "last_opened_file_path": "C:/Users/cheli/Desktop/PROGRAMAS/intelli J ULTIMATE/todolistfx",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,7 +65,7 @@
       <updated>1678265165007</updated>
       <workItem from="1678896794996" duration="2634000" />
       <workItem from="1678899651820" duration="141000" />
-      <workItem from="1678899816600" duration="1371000" />
+      <workItem from="1678899816600" duration="5054000" />
     </task>
     <task id="LOCAL-00001" summary="Nuevo proyecto enlazar con bbdd">
       <created>1678266779761</created>

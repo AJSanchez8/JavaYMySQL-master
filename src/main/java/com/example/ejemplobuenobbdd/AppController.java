@@ -61,7 +61,7 @@ public class AppController {
             botonBorrar.setVisible(true);
             textoBorrar.setVisible(true);
         }
-
+        entrada.clear();
     }
     @FXML
     protected void onDeleteButtonClick() throws SQLException {
@@ -87,9 +87,10 @@ public class AppController {
             }
             contenido.setText(temp);
         } else {
-        salida.setText(" ERROR CAMPO VACÍO ");
-        System.out.println(" ERROR CAMPO VACÍO ");
+        salida.setText("ERROR NO EXISTE ESA COLUMNA");
+        System.out.println("ERROR NO EXISTE ESA COLUMNA");
     }
+        textoBorrar.clear();
     }
 
 }
