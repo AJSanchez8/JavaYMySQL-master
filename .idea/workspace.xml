@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a902054-e73a-440d-a838-7b16bbc9e6f0" name="Changes" comment="Comprobamos bases de datos y conexiones">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="2a902054-e73a-440d-a838-7b16bbc9e6f0" name="Changes" comment="borramos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ejemplobuenobbdd/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ejemplobuenobbdd/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ejemplobuenobbdd/AppIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ejemplobuenobbdd/AppIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ejemplobuenobbdd/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ejemplobuenobbdd/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,21 +42,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/cheli/Desktop/PROGRAMAS/intelli J ULTIMATE/todolistfx",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.JavaFX",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cheli/Desktop/PROGRAMAS/intelli J ULTIMATE/Tarea15FebreroJavaFX-master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,7 +67,13 @@
       <updated>1678265165007</updated>
       <workItem from="1678896794996" duration="2634000" />
       <workItem from="1678899651820" duration="141000" />
-      <workItem from="1678899816600" duration="5054000" />
+      <workItem from="1678899816600" duration="5080000" />
+      <workItem from="1678993581156" duration="1222000" />
+      <workItem from="1678994961381" duration="3076000" />
+      <workItem from="1678998056165" duration="789000" />
+      <workItem from="1679069747801" duration="445000" />
+      <workItem from="1679246699175" duration="4678000" />
+      <workItem from="1679253782361" duration="924000" />
     </task>
     <task id="LOCAL-00001" summary="Nuevo proyecto enlazar con bbdd">
       <created>1678266779761</created>
@@ -88,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678699746598</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="borramos">
+      <created>1678909385775</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678909385775</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,7 +113,8 @@
     <MESSAGE value="Nuevo proyecto enlazar con bbdd" />
     <MESSAGE value="Conectado a la bases de datos puerto :8081" />
     <MESSAGE value="Comprobamos bases de datos y conexiones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comprobamos bases de datos y conexiones" />
+    <MESSAGE value="borramos" />
+    <option name="LAST_COMMIT_MESSAGE" value="borramos" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

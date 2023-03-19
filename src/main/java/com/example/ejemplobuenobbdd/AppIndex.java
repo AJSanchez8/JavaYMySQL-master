@@ -38,6 +38,6 @@ public class AppIndex extends Application {
 
         launch();
     }
-    // BLoque estatico
+    // BLoque estatico para quitar conexión
     static {Runtime.getRuntime().addShutdownHook(new CierraConexion());}
 }
