@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a902054-e73a-440d-a838-7b16bbc9e6f0" name="Changes" comment="borramos">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ejemplobuenobbdd/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ejemplobuenobbdd/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ejemplobuenobbdd/AppIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ejemplobuenobbdd/AppIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ejemplobuenobbdd/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ejemplobuenobbdd/hello-view.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="2a902054-e73a-440d-a838-7b16bbc9e6f0" name="Changes" comment="Metodo inizialice" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +67,7 @@
       <workItem from="1678998056165" duration="789000" />
       <workItem from="1679069747801" duration="445000" />
       <workItem from="1679246699175" duration="4678000" />
-      <workItem from="1679253782361" duration="924000" />
+      <workItem from="1679253782361" duration="1005000" />
     </task>
     <task id="LOCAL-00001" summary="Nuevo proyecto enlazar con bbdd">
       <created>1678266779761</created>
@@ -103,7 +97,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678909385775</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Metodo inizialice">
+      <created>1679254980885</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679254980885</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Metodo inizialice">
+      <created>1679255011212</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679255011212</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +122,8 @@
     <MESSAGE value="Conectado a la bases de datos puerto :8081" />
     <MESSAGE value="Comprobamos bases de datos y conexiones" />
     <MESSAGE value="borramos" />
-    <option name="LAST_COMMIT_MESSAGE" value="borramos" />
+    <MESSAGE value="Metodo inizialice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Metodo inizialice" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
