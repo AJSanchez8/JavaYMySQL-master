@@ -52,9 +52,9 @@
             </TextFlow>
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" styleClass="panel-body">
                <children>
-                  <Label text="Nuevo registro:">
+                  <Label prefHeight="17.0" prefWidth="84.0" text="CREAR -&gt;">
                      <HBox.margin>
-                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                        <Insets bottom="3.0" left="2.0" right="3.0" top="3.0" />
                      </HBox.margin>
                   </Label>
                   <TextField fx:id="entrada" prefHeight="25.0" prefWidth="140.0">
@@ -62,7 +62,7 @@
                         <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
                      </HBox.margin>
                   </TextField>
-                  <Button mnemonicParsing="false" onAction="#onInsertButtonClick" text="Insertar">
+                  <Button mnemonicParsing="false" onAction="#onInsertButtonClick" prefHeight="25.0" prefWidth="90.0" text="INSERT">
                      <HBox.margin>
                         <Insets bottom="3.0" left="3.0" right="30.0" top="3.0" />
                      </HBox.margin>
@@ -71,29 +71,29 @@
                         <String fx:value="btn-primary" />
                      </styleClass>
                   </Button>
-                  <TextField fx:id="textoModificar">
+                  <TextField fx:id="textoModificar" disable="true" prefHeight="25.0" prefWidth="159.0">
                      <HBox.margin>
-                        <Insets bottom="20.0" left="20.0" right="5.0" top="20.0" />
+                        <Insets bottom="20.0" left="6.0" right="5.0" top="20.0" />
                      </HBox.margin>
                   </TextField>
-                  <Button fx:id="botonModificar" mnemonicParsing="false" onAction="#onModifyButton" text="Modificar">
+                  <Button fx:id="botonModificar" disable="true" mnemonicParsing="false" onAction="#onModifyButton" prefHeight="25.0" prefWidth="90.0" text="MODIFY">
                      <styleClass>
                         <String fx:value="btn" />
                         <String fx:value="btn-warning" />
                      </styleClass>
                   </Button>
-                  <TextField fx:id="textoBorrar" prefHeight="25.0" prefWidth="160.0" visible="false">
+                  <TextField fx:id="textoBorrar" prefHeight="25.0" prefWidth="160.0">
                      <HBox.margin>
                         <Insets left="30.0" />
                      </HBox.margin>
                   </TextField>
-                  <Button fx:id="botonBorrar" alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#onDeleteButtonClick" text="Borrar " visible="false">
+                  <Button fx:id="botonBorrar" mnemonicParsing="false" onAction="#onDeleteButtonClick" prefHeight="25.0" prefWidth="90.0" text="DELETE">
                      <styleClass>
                         <String fx:value="btn" />
                         <String fx:value="btn-danger" />
                      </styleClass>
                      <HBox.margin>
-                        <Insets left="5.0" />
+                        <Insets left="5.0" right="2.0" />
                      </HBox.margin>
                   </Button>
                </children>

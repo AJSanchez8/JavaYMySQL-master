@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a902054-e73a-440d-a838-7b16bbc9e6f0" name="Changes" comment="Metodo inizialice" />
+    <list default="true" id="2a902054-e73a-440d-a838-7b16bbc9e6f0" name="Changes" comment="Metodo inizialice">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ejemplobuenobbdd/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ejemplobuenobbdd/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ejemplobuenobbdd/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ejemplobuenobbdd/hello-view.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +72,8 @@
       <workItem from="1679069747801" duration="445000" />
       <workItem from="1679246699175" duration="4678000" />
       <workItem from="1679253782361" duration="1005000" />
+      <workItem from="1679327340575" duration="2271000" />
+      <workItem from="1679329707007" duration="497000" />
     </task>
     <task id="LOCAL-00001" summary="Nuevo proyecto enlazar con bbdd">
       <created>1678266779761</created>
@@ -111,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679255011212</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Metodo inizialice">
+      <created>1679327367796</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679327367796</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

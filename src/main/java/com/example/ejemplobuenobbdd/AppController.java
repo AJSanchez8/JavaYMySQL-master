@@ -6,6 +6,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.StackPane;
 import javafx.scene.text.Text;
 
 import java.net.URL;
@@ -67,21 +68,10 @@ public class AppController implements Initializable {
             salida.setText(" ERROR CAMPO VACÍO ");
             System.out.println(" ERROR CAMPO VACÍO ");
         }
-
-        String sqlCheckEspacio = """
-                SELECT COUNT(*) FROM pruebas
-                """;
-        PreparedStatement pstmtChech = AppIndex.conexion.prepareStatement(sqlCheckEspacio);
-        if (!pstmtChech.equals("")){
-            botonBorrar.setVisible(true);
-            textoBorrar.setVisible(true);
-        }
         entrada.clear();
     }
     @FXML
     protected void onDeleteButtonClick() throws SQLException {
-
-
 
         String borrarSQL = """
                 DELETE FROM prueba WHERE texto = (?)
@@ -106,28 +96,31 @@ public class AppController implements Initializable {
             contenido.setText(temp);
         } else {
         salida.setText("ERROR NO EXISTE ESA COLUMNA");
-        System.out.println("ERROR NO EXISTE ESA COLUMNA");
     }
         textoBorrar.clear();
     }
 
+
+    // Temporalmente desactivado
     @FXML
     protected void onModifyButton() throws SQLException {
 
-        botonModificar.setVisible(false);
-        textoModificar.setVisible(false);
-
-
+        // Sentencias necesarias
         String modificarSQL = """
                 DELETE FROM prueba WHERE texto = (?)
                 """;
         String modificarSQL2 = """
                     INSERT INTO prueba (texto) VALUES (?)
                     """;
+
+        // Primera eliminación
         PreparedStatement preparedModificar1 = AppIndex.conexion.prepareStatement(modificarSQL);
         String valor = textoModificar.getText();
         preparedModificar1.setString(1,valor);
         int n = preparedModificar1.executeUpdate();
+        textoModificar.clear();
+
+        // Segundo insertamos
 
         PreparedStatement preparedModificar2 = AppIndex.conexion.prepareStatement(modificarSQL2);
         String variable = textoModificar.getText();
@@ -135,7 +128,6 @@ public class AppController implements Initializable {
         int n1 = preparedModificar2.executeUpdate();
 
         if (n>0){
-            System.out.println("Registro insertado con exito");
             salida.setText("Registo insertado con exito");
             Statement stm = AppIndex.conexion.createStatement();
             String sql2 = """
@@ -149,20 +141,19 @@ public class AppController implements Initializable {
             contenido.setText(temp);
         } else {
             salida.setText("ERROR NO EXISTE ESA COLUMNA");
-            System.out.println("ERROR NO EXISTE ESA COLUMNA");
         }
         String sqlCheckEspacio = """
                 SELECT COUNT(*) FROM pruebas
                 """;
         PreparedStatement pstmtChech = AppIndex.conexion.prepareStatement(sqlCheckEspacio);
 
-        textoBorrar.clear();
+
     }
 
+    // Abrimos la base de datos
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         try {
-
 
         Statement stm2 = AppIndex.conexion.createStatement();
         String sql2 = """
